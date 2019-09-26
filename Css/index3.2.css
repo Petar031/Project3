@@ -1,0 +1,586 @@
+*{
+    margin:0px;
+}
+
+
+
+
+.container  {
+    width:90%;
+    margin:0 auto;
+}
+
+.container h1{
+    float:left;
+}
+
+#subheader{
+    width:100%;
+    margin:0 auto;
+    height:65px;
+    background:grey;
+    color:white;
+    margin-top:0px;
+    padding-left:0px;
+   
+    }
+
+
+
+#subheader .dropdown {
+    float:right;
+    padding-top:23px;
+    width:88px;
+    
+}
+
+    
+    
+
+/*Novi kod  */
+.dropdown .dropbtn{
+    cursor: pointer;
+    font-size: 14px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 4px 1px;
+    background-color: inherit;
+    font-style:none;
+    
+    }
+
+ .dropdown:hover .dropbtn {
+    background-color:none ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none ;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+
+.dropdown-content a {
+    float: none;
+    color: black !important;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-style:italic;
+    font-size:15px;
+    
+}
+
+.dropdown-content a:hover {
+    font-style:normal;
+}
+
+.show {
+    display:block;
+    padding-right:10px;
+}
+
+
+
+
+ #subheader #myInput{
+     position:absolute;
+     right:251px;  
+     top:3px;
+}
+
+ input[type=text]{
+    background-image: url('../img/search.png'); 
+    background-size: 50px; 
+    background-position:-13px; 
+    background-repeat:no-repeat;  
+    width: 7%; 
+    font-size: 12px; 
+    padding: 5px 5px 5px 25px; 
+    border: 2px solid white; 
+    margin-bottom: 0px; 
+    margin-top:20px;
+    transition: width 0.7s ease-in-out;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    display:inline-block;
+}
+
+input[type=text]:focus {
+    width: 10%;
+    background-color:#F4F0F0;
+    border-style: double;
+    color:black;
+}
+
+
+
+
+ #subheader .container a{
+     float:right;
+     line-height:65px;
+     color:white;
+     text-decoration:none;
+     margin-left:0px;
+}
+
+.container form{
+    float:right;
+    padding-top:20px;
+    padding-left:14px;   
+    margin-right:5px;
+} 
+
+/*Navigacija*/
+.nav .navigacija  {
+    height:0 auto;
+    
+}
+
+
+ .navigacija{
+    display:inline-block; 
+    padding-top:30px;
+    height:0 auto;
+    padding-bottom:30px;
+    margin-left:25px;
+   
+} 
+
+
+
+
+ .navigacija li {
+	float:left;
+	list-style-type: none;
+}
+ .navigacija ul {
+	margin-top:0px;  
+}
+  .navigacija a {
+	font-size: 25px;
+	color: black;
+    font-weight:bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 8px;
+    margin-bottom:10px;  
+}
+  .navigacija a:hover {
+	color: #FFF;
+	background-color: #e5c79b;
+	border-radius:5px;
+}
+
+
+/*Products*/
+.Products{
+    float:left;
+    margin-left:140px;    
+}
+
+.Products h1{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    margin-left:-65px;
+    float: left;
+    
+}
+.clear {
+    clear:both;
+}
+/*Main Box */
+.Boxes {
+    display:block;
+    margin:32px 0;
+    margin-left:-4%;
+}
+
+
+.Box{
+    background-color: #fff;
+    float: left;
+    margin: 0px 0px 20px 50px;
+    width: 210px;
+    padding: 10px;
+    height: 290px;
+    border:1px solid #333;
+    overflow:hidden;
+    }
+
+
+
+.animate img {
+    display:block;
+    margin:0 auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;  
+    cursor:pointer;     
+   
+}
+
+
+ .animate:hover img{
+    padding-top:51px;
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+
+
+
+
+
+.Products h2{
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    
+}
+
+
+.Box button {
+    border: 1px solid #722A1B;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+span{
+    float:right;
+}
+
+
+ #Last{
+     display:inline-block;
+     text-align:justify;
+     border:solid 1px;
+     padding:3px 3px 3px 3px;
+     color:black;
+     background-color: #fff;
+     color: #722A1B;
+     margin-top:30px;
+     cursor: pointer;
+}
+
+
+
+.NextPage, h4{
+    text-align:center;
+    font-size:18px;
+    width:100%;
+    color:#722A1B;
+   }
+
+.NextPage, a {
+    text-decoration:none;
+}
+
+
+
+/*Footer */
+footer{
+    width:100%;
+}
+
+.FooterTop {
+    margin-top:40px;
+}
+
+.FooterTop{
+    text-align:center;
+    line-height:50px;
+    border-top:solid 2px;
+}
+
+.FooterBottom {
+    text-align:center;
+}
+
+
+.FooterBottom img{
+    cursor:pointer;
+}
+
+
+.Subscribe .input-area{
+    padding:5px;
+    margin-left:10px;
+    border-style: double;
+    background-color:white;
+}
+
+.Subscribe .input-area:focus{
+    background-color:bisque;
+}
+
+
+.Subscribe .button_Btn {
+    padding:5px;
+    cursor:pointer;
+    font-style: italic;
+    border-radius:7px;
+}
+
+
+
+@media only screen and (max-width:1290px) {
+  
+   
+    .Box img{
+        width:80%;
+    }
+    .Box {
+        width:25%;
+    }
+    
+    .Boxes{
+        margin-left:0px;
+    }    
+}   
+
+@media only screen and (max-width:1100px) {
+  
+    .Box { 
+        margin-left:0px;
+   }
+    
+    .Box img{
+        width:73%;
+}
+    .Box {
+        width:40%;
+    }
+    .Boxes{
+        margin-left:0px;     
+   }
+ 
+    
+}   
+
+
+@media only screen and (max-width:870px) {
+  
+    .Box {  
+        width:55%;
+        margin-left:12%;
+    }
+  
+   
+    
+    .Box img{
+        width:90%;
+    }
+    .Boxes{
+        width:100%;
+        
+    }
+    .nav{
+        margin-top:15px;
+    }
+    #myInput{
+        width:80px;
+    }
+    
+    
+    
+    
+}  
+
+
+
+
+@media only screen and (max-width:600px) {
+  
+    .Box { 
+        width:70%;
+ 
+    }
+    .Products{
+        margin:0px;
+    }
+    .Box img{
+        width:100%;
+        padding-left:0px;
+        margin-left:0px;
+    }
+    .Boxes{
+        margin-left:0px;
+        padding-left:0px;
+        
+    }
+    
+}  
+
+
+@media only screen and (max-width:600px) {
+    
+    
+    #wrapper {
+        width:100%;
+     
+    }
+    
+    #subheader .container .nav {
+        width:100%; 
+        
+    }
+    
+    .nav{
+        margin-top:30px;
+    }
+   .nav .navigacija {
+        margin-left:0px;
+        width:100%;
+    
+    }
+    
+    .navigacija  ul li {
+        width:100%;
+        display:block;
+        margin-left:-10%;
+        text-align:center;
+    }
+  
+    .navigacija li a {
+        margin-top:60px;
+        line-height:0px;
+        margin-left:15%;
+}
+    
+   
+    
+     .Content h1 {
+        margin-left:0px;
+    }
+    
+    .container h1 {
+        font-size:25px;
+        display:inline-block;
+        margin-right:10px;
+    }
+    
+     #myInput{
+        width:90%;
+        margin-left:2%;
+        display:block;
+        z-index:1;
+        margin-top:110px;
+        padding:10px;
+        left:0px;
+        background-color:#F4F0F0;  
+    }
+   
+    
+    :-ms-input-placeholder { 
+        padding-left:10px;
+ 
+}
+    ::-moz-placeholder { /* Firefox 19+ */ 
+        padding-left:10px;   
+}
+    
+    
+    ::-webkit-input-placeholder {
+        padding-left:10px;
+      
+}  
+    
+    
+    
+   .dropdown{
+       position:absolute;
+       display:inline-block;
+    }
+    
+    .Products h1{
+        margin-top:10px;
+        display:block;
+        margin-left:12%;;
+    }
+    
+ 
+    
+    .Box:first-child{
+        margin-top:0px;
+    }
+    
+} 
+ 
+
+    
+
+@media only screen and (max-width:500px){
+   .Products .Boxes .Box{
+        margin-left:0px;
+        border-left:none; 
+        border-right:none;
+        width:93%;
+    }  
+}
+
+
+
+
+
+  
+@media only screen and (max-width:350px) {
+    
+   
+    .Products h1{
+        margin-left:0px;
+    }
+    
+    .Products .Boxes{
+        margin-top:20px;
+    }
+    
+   
+    .navigacija li a {
+        width:100%;
+        margin-left:-7px;
+        margin-top:60px;
+        
+    }
+   
+    #myInput {
+        margin-left:0%;
+    }
+     
+    
+    .container h1{
+        font-size:16px;
+        margin-left:-12px;
+    }
+    
+     .container h1{
+         margin-top:2px;
+    }
+    
+    .FooterBottom img{
+        width:100%;
+    }
+    
+}  

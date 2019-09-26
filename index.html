@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Watches Online Store</title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+<body>
+    
+       
+<div id="wrapper">
+   
+<div id="subheader">
+    <div class="container">
+      <h1><a href="index.html"> Watches-Online</a></h1>
+            <form action="#">
+                <input class="shopping-cart" type="image" src="img/cart.png" alt="Cart" width="28" height="28">
+            </form>
+           
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">My Account
+                <i class="fa fa-caret-down"></i>
+            </button>
+            
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#">Log in</a>
+                <a href="#">Register</a>      
+            </div>
+            </div>  
+       
+         
+            <form>
+                <input type="text" id="myInput" placeholder="Search">
+            </form>
+    </div>
+</div>
+     
+   
+<!--main header --> 
+        <div class="background_img">
+            <img src="img/watch.jpg" height="auto"   width="100%"> 
+                <div class="nav"> 
+                    <div class="navigacija">
+          
+          
+                        <ul>
+					       <li><a href="index3.1.html" title="Mens">Mens</a></li>
+					       <li><a href="index3.2.html" title="Womens" >Womens</a></li>
+					       <li><a href="index3.3.html" title="Brands" >Brands</a></li>
+					       <li><a href="index3.4.html" title="About us" >About us</a>
+                           </li>
+                        </ul>
+                    </div>
+                </div> 
+      
+        <div class="quote">"Time is what you read from a watch." (Albert Einstein) </div>
+      
+      
+    </div> <!--End Background_img -->
+</div>
+
+ 
+    
+    
+<!--JavaScript part -->    
+<script>
+    
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+        
+</script>
+</body>
+</html>
